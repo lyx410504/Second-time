@@ -1,0 +1,111 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after{
+	content: "";
+	width: 0;
+	height: 0;
+    display: block;
+    clear: both;
+}
+.w{
+	width: 1096px;
+	margin:0 auto;
+}
+.w1{
+	width: 1920px;
+	margin:0 auto;
+}
+body{
+	background: #fff;
+}
+@font-face{  /*声明字体 引用字体*/
+    font-family:'icomoon';
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf')  format('truetype'),
+    url('../fonts/icomoon.svg#SofiaProLight')  format('svg');
+    font-weight:normal;
+    font-style:normal;
+
+}
+/*头部开始*/
+header{
+    height: 80px;
+ 
+}
+header .nav{
+	width: 960px;
+	height: 100%;
+	line-height: 80px;
+	margin:0 auto;
+}
+header a{
+	width: 156px;
+	text-align: center;
+	color:#0c0c0c;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	display: inline-block;
+}
+header a:hover{
+	color:#c5030c;
+}
+
+/*头部结束*/
+/*底部开始*/
+footer .footer-content{
+     width: 1110px;
+     margin:0 auto;
+     cursor: pointer;
+
+}
+footer .footer-content dl{
+    float: left;
+    width: 277px;
+    text-align: center;
+     margin-top: 100px;
+}
+footer .footer-content dl dd{
+	font-size: 34px;
+	color:#fcfbf9;
+}
+footer .footer-content dl .xian{
+	width: 84px;
+	height: 3px;
+	background:#fcfbf9;
+	margin:40px auto;
+}
+footer .footer-content dl dt{
+	font-size: 30px;
+	color:#fcfbf9;
+	line-height: 48px;
+}
+footer .yin{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+footer:hover .yin{
+	background: none;
+}
+.copy{
+	height: 50px;
+	width: 100%;
+	background: rgba(0,0,0,0.9);
+}
+.copy p{
+	color:#fff;
+	line-height: 50px;
+	text-align: center;
+	font-size: 12px;
+}

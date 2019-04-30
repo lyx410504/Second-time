@@ -1,0 +1,344 @@
+header .nav a:nth-child(3){
+	color:#b20000;
+}
+/*头部结束*/
+.banner{
+	height: 676px;
+	position: relative;
+}
+
+.banner ul>li>a{
+	background: url(../images/m-ba_02.png) no-repeat;
+	display: block;
+	height: 676px;
+}
+.banner .black{
+	width: 100%;
+	height: 676px;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.banner .logo{
+	width: 145px;
+	height: 240px;
+	position: absolute;
+	top:-80px;
+	left: 327px;
+}
+.banner .logo h1{
+	height: 240px;
+	text-indent: -999px;
+	overflow: hidden;
+	position: relative;
+}
+.banner .logo h1 a{
+	display: inline-block;
+	background: url(../images/logo_02.png) no-repeat;
+	width: 145px;
+	height: 240px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.banner .l_go{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background: rgba(0,0,0,.4);
+	border-radius: 50%;
+	position: absolute;
+	top:280px;
+
+	left: 30px;
+}
+.banner .l_go a{
+	width: 70px;
+	height: 70px;
+	display: block;
+}
+.banner .l_go span{
+	background: url(../images/lg.png);
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+
+}
+.banner .r_go{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background: rgba(0,0,0,.4);
+	border-radius: 50%;
+	position: absolute;
+	top:280px;
+	right: 30px;
+}
+.banner .r_go a{
+	width: 70px;
+	height: 70px;
+	display: block;
+}
+.banner .r_go span{
+	background: url(../images/rg.png);
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+
+}
+.banner .dian{
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -46px;
+}
+.banner  .dian a{
+   width: 12px;
+   height: 12px;
+   background: #fff;
+   border-radius: 50%;
+   display: inline-block;
+}
+.banner .dian a:nth-child(2){
+	background: none;
+	border:2px solid #fff;
+	margin:0 20px;
+}
+.banner .title{
+	background:rgba(0,0,0,.5);
+	width: 416px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top:0;
+	cursor: pointer;
+} 
+.banner .title:hover{
+	background: none;
+}
+.banner .title .lantern{
+	width: 59px;
+	height: 160px;
+	margin-top: 20px;
+	margin-left: 270px;
+}
+.banner .title .lantern span{
+	width: 59px;
+	height: 160px;
+	display: inline-block;
+	background: url(../images/m-d3_04.png);
+}
+.banner .title p{
+	writing-mode:vertical-rl;
+	font-size: 36px;
+	color:#fff;
+	position: absolute;
+	top:20px;
+	right: 180px;
+}
+/*菜品展示开始*/
+.food-show{
+	margin-top:80px;
+}
+.food-show .food-title h1{
+	text-align: center;
+	font-size: 60px;
+}
+.food-show .food-title p{
+	font-size: 24px;
+	width: 200px;
+	line-height: 50px;
+	border-bottom: 5px solid #b20000;
+	margin:0 auto;
+}
+.food-show .food-info{
+	width: 1510px;
+	margin:0 auto;
+	margin-top: 80px;
+}
+.food-show .food-info ul{
+	width: 1510px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.food-show .food-info ul li{
+    width: 335px;
+    height: 370px;
+    background: #000;
+    float:left;
+    margin-bottom: 40px;
+}
+.food-show .food-info ul li a{
+	 width: 100%;
+    height:100%;
+    color:#fff;
+    display: block;
+    position: relative;
+}
+.food-show .food-info ul li:nth-child(1){
+	width: 420px;
+}
+.food-show .food-info ul li:nth-child(1) span{
+	width: 420px;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	display: inline-block;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.food-show .food-info ul li a:hover span{
+    display: none;
+}
+
+.food-show .food-info ul li:nth-child(3){
+	width: 420px;
+}
+.food-show .food-info ul li:nth-child(3) span{
+	width: 420px;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	display: inline-block;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.food-show .food-info ul li:nth-child(6){
+	width: 420px;
+}
+.food-show .food-info ul li:nth-child(6) span{
+	width: 420px;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	display: inline-block;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.food-show .food-info ul li:nth-child(8){
+	width: 420px;
+}
+.food-show .food-info ul li:nth-child(8) span{
+	width: 420px;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	display: inline-block;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.food-show .food-info ul li a h1{
+   font-size: 40px;
+   text-align: center;
+   margin-top:100px;
+}
+.food-show .food-info ul li a p{
+   font-size:16px;
+   text-align: center;
+   line-height: 28px;
+   margin-top:20px;
+}
+.food-show .food-info ul li a .dian{
+	width: 67px;
+	margin:0 auto;
+	margin-top:60px;
+}
+.food-show .food-info ul li a .dian i{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+}
+.food-show .food-info ul li a .dian i:hover{
+	background: none;
+	border:2px solid #fff;
+}
+.food-show .food-info ul li a .dian i:nth-child(2){
+	margin:0 10px;
+	background: none;
+	border:2px solid #fff;
+}
+/*新闻动态公布栏开始*/
+.news-trends{
+	background: #b20000;
+	height: 150px;
+	margin-top:100px;
+	padding:40px 130px;
+}
+.news-trends .news-content{
+	margin:0 auto;
+	height: 100%;
+}
+.news-trends .news-content .news-left{
+	float: left;
+	width: 1090px;
+}
+.news-trends .news-content .news-left ul{
+	overflow: hidden;
+}
+.news-trends .news-content .news-left ul li{
+	float: left;
+	width: 590px;
+}
+.news-trends .news-content .news-left ul li:nth-child(2n){
+	width: 500px;
+}
+.news-trends .news-content .news-left ul li a{
+	font-size: 20px;
+	color:#fff;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+}
+.news-trends .news-content .news-left ul li a:before{
+	content:"";
+	width:10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 50%;
+    position: absolute;
+    top:12px;
+    left: 0;
+}
+
+.news-trends .news-content .news-right{
+	float: right;
+}
+.news-trends .news-content .news-right .search{
+	width: 510px;
+	height: 50px;
+}
+.news-trends .news-content .news-right .search input{
+	width: 400px;
+	height: 50px;
+	border: 1px solid #fff;
+	background: #b20000;
+	float:left;
+	padding-left: 20px;
+	outline: none;
+}
+.news-trends .news-content .news-right .search .glass{
+	float: right;
+	height: 50px;
+	width: 100px;
+	background: #fff;
+}
+.news-trends .news-content .news-right .search .glass span{
+	width: 30px;
+	height: 30px;
+	margin-top:10px;
+	margin-left: 35px;
+	cursor: pointer;
+	display: inline-block;
+	background: url(../images/search.png);
+}
+footer{
+	width: 100%;
+	height: 567px;
+	background: url(../images/m-banner_22.png);
+	margin-top:50px;
+}
