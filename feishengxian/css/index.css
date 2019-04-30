@@ -1,0 +1,525 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd{
+    list-style:none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+div{
+	 box-sizing:border-box;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+header{
+	height: 0.88rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	align-items: center;
+    background: #fff;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 15;
+    padding: 0 0.24rem;
+}
+header .img{
+	 width:0.36rem;
+     height: 0.36rem;  
+     display: flex;
+}
+header .info{
+	font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.4rem;
+	font-weight: 700;
+}
+/*banner区域开始*/
+div.swiper-container{
+	margin-top: 0.88rem;
+}
+div.swiper-slide{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+/*商品展示开始*/
+.show-sale{
+	width: 100%;
+}
+.show-sale ul{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	-webkit-justify-content:space-around;
+	margin-bottom: 0.35rem;
+}
+.show-sale ul li{
+	display: flex;
+	display: -webkit-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.show-sale ul li img{
+	width:1.11rem;
+    height: 1.11rem;
+}
+.show-sale ul li p{
+	font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.24rem;
+	text-align: center;
+}
+/*头条部分开始*/
+.headline{
+	width: 100%;
+    height: 0.76rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	align-items: center;
+	border-top:0.1rem solid #efefef;
+    border-bottom:0.1rem solid #efefef;
+}
+.headline .headline-left{
+	height: 100%;
+	margin-left: 0.26rem;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+.headline .headline-left .img1{
+	width: 0.94rem;
+    height: 0.4rem;
+    padding-right: 0.1rem;
+    border-right: 1px solid #6c6f76; 
+
+}
+.headline .headline-left .img2{
+	width: 0.43rem;
+    height: 0.35rem;
+    padding:0 0.1rem;
+}
+.headline .headline-left .info1{
+	font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.22rem;
+    
+}
+.headline .headline-right{
+	width: 0.2rem;
+    height: 0.32rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0.24rem;
+}
+/*banner2*/
+.banner2{
+	width: 100%;
+	height: 4.78rem;
+}
+/*今日王牌大赏*/
+.today-reward{
+	width:100%;
+	height: 0.88rem;
+    display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	align-items: center;
+	-webkit-align-items:center;
+}
+.today-reward-left{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items:center;
+	padding-left: 0.24rem;
+}
+.today-reward-left .img1{
+	width: 0.42rem;
+    height: 0.51rem;
+    margin-right: 0.2rem;
+}
+.today-reward-left p{
+	font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.22rem;
+}
+.today-reward-right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items:center;
+}
+.today-reward-right a{
+	font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.22rem;
+}
+.today-reward-right .img2{
+	width: 0.42rem;
+    height: 0.51rem;
+    margin-right: 0.24rem;
+    margin-left: 0.1rem;
+}
+/*今日王牌展示*/
+.show-time{
+	width:100%;
+    height: 2.39rem;
+    overflow: hidden;
+}
+.show-time .wraper{
+    width:100%;
+    height: 2.54rem;/* 比里层元素高16px 为了隐藏滚动条*/
+    overflow-x: scroll;/* 定义超出此盒子滚动 */
+    overflow-y: hidden;
+}
+.show-time .wraper ul{
+	width: 10.54rem;
+	display: flex;
+	display: -webkit-flex;
+	
+}
+.show-time .wraper ul li{
+	width: 5.25rem;
+	height: 2.37rem;
+	border:1px solid #ddd;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	-webkit-justify-content:space-around;
+	align-items: center;
+	-webkit-align-items:center;
+    margin-right: 0.2rem;
+}
+.show-time .wraper ul li .show-left{
+   width: 1.31rem;
+   height: 1.7rem;
+
+}
+.show-time .wraper ul li .show-right{
+   display: flex;
+   display: -webkit-flex;
+   height: 2.37rem;
+   justify-content:center;
+   flex-direction: column;
+   -webkit-flex-direction:column;
+}
+.show-time .wraper ul li .show-right h1{
+	font-size:0.24rem;
+	color:#333;
+	font-weight: 400;
+	font-family: "微软雅黑";
+}
+.show-time .wraper ul li .show-right p{
+	font-size:0.20rem;
+	color:#a19fa1;
+	font-family: "微软雅黑";
+}
+.show-time .wraper ul li .show-right .introduce{
+	display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+	-webkit-justify-content:flex-start;
+	 padding-top:0.1rem;
+}
+.show-time .wraper ul li .show-right .introduce .introduce-left{
+	display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    width: 1.44rem;
+    height: 0.62rem;
+    border-right: 1px solid #ddd;
+   
+     box-sizing:border-box;
+}
+.show-time .wraper ul li .show-right .introduce .introduce-right{
+	display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding-left: 0.2rem;
+    box-sizing:border-box;
+}
+.show-time .wraper ul li .show-right .introduce h1{
+	font-size: 0.28rem;
+	color:#333;
+	font-family: "微软雅黑";
+}
+.show-time .wraper ul li .show-right .introduce p{
+	font-size:0.20rem;
+	color:#a19fa1;
+	font-family: "微软雅黑";
+}
+.show-time .wraper ul li .price{
+	font-size: 0.26rem;
+	color:#ff6e15;
+	font-family: "微软雅黑";
+	margin-top: 0.1rem;
+}
+.show-time .wraper ul li .price span{
+	color:#a19fa1;
+}
+/*今日精选开始*/
+.today-selection{
+	width:100%;
+	height: 0.88rem;
+    display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	align-items: center;
+	-webkit-align-items:center;
+}
+.today-selection-left{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items:center;
+	padding-left: 0.24rem;
+}
+.today-selection-left .img1{
+	width: 0.42rem;
+    height: 0.51rem;
+    margin-right: 0.2rem;
+}
+.today-selection-left p{
+	font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.22rem;
+}
+.today-selection-right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items:center;
+}
+.today-selection-right a{
+	font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.22rem;
+}
+.today-selection-right .img2{
+	width: 0.42rem;
+    height: 0.51rem;
+    margin-right: 0.24rem;
+    margin-left: 0.1rem;
+}
+.banner3{
+	width: 100%;
+	height: auto;
+}
+/*水果展示开始*/
+.show-fruit{
+	height: 2.7rem;
+	width: 100%;
+	margin-top: 0.1rem;
+	margin-bottom: 0.3rem;
+}
+.show-fruit .wrapper{
+	width: 100%;
+    height: 2.8rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.show-fruit .wrapper ul{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	align-items: center;
+	-webkit-align-items:center;
+	width: 9.8rem;
+	margin:0 auto;
+}
+.show-fruit .wrapper ul li{
+	display: flex;
+	display: -webkit-flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0.2rem;
+}
+.show-fruit .wrapper ul li span{
+    font-family: "微软雅黑";
+	color:#333;
+	font-size: 0.26rem;
+	font-weight: 700;
+}
+.show-fruit .wrapper ul li .sale{
+    font-family: "微软雅黑";
+	color:#ff7725;
+	font-size: 0.22rem;
+	font-weight: 700;
+	margin-top: 0.1rem;
+}
+.show-fruit .wrapper ul li .sale:after{
+	content: "/袋";
+	color:#9f9d9f;
+    font-size: 0.2rem;
+}
+/*随便逛逛开始*/
+.hang{
+	width: 100%;
+	border-top:0.1rem solid #efefef;
+	border-bottom: 0.01rem solid #ddd;
+	margin-bottom: 0.16rem;
+}
+.hang .hang-top{
+    display: flex;
+	display: -webkit-flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: 0.79rem;
+	padding-left:0.1rem;
+	border-bottom: 0.01rem solid #ddd;
+}
+.hang .hang-top .logo{
+	width: 0.59rem;
+	height: 0.55rem;
+	margin-right: 6px;
+}
+.hang .hang-top p{
+	font-size: 0.3rem;
+	color:#333;
+	font-family: "微软雅黑";
+}
+.hang-content{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap:wrap;
+	-webkit-flex-wrap:wrap;
+	justify-content: space-around;
+	-webkit-justify-content:space-around;
+}
+.hang-content>div{
+	width:7.02rem;
+	height:2.84rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+
+	-webkit-justify-content:space-around;
+	align-items:center;
+}
+.misu .img{
+	width: 2.22rem;
+	height: 1.62rem;
+	margin-left:0.4rem;
+}
+.hang-content>div .content{
+	height:100%;
+	border-bottom:0.01rem solid #ddd;
+	padding-left: 0.1rem;
+}
+.hang-content>div .info1{
+	margin-top: 0.3rem;
+	font-size: 0.26rem;
+	font-family: "微软雅黑";
+	color:#333;
+}
+.hang-content>div .info2{
+	font-size: 0.24rem;
+	color:#a4a1a4;
+	width: 3.84rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.hang-content>div .info3{
+	margin:0.2rem 0;
+	width: 3.4rem;	
+}
+.hang-content>div .info3-top{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.hang-content>div .info3 h1{
+	font-size: 0.3rem;
+	color:#333;
+}
+.hang-content>div .info3-bottom{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.hang-content>div .info3 p{
+	font-size: 0.22rem;
+	color:#aba8ab;
+}
+.hang-content>div .info4{
+	font-size: 0.3rem;
+	color:#ff6e18;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.hang-content>div .info4 span{
+	font-size: 0.26rem;
+}
+.hang-content>div .info4 i{
+	font-style: normal;
+	color:#aba8ab;
+	font-size: 0.24rem;
+	}
+.info4-right{
+	width: 0.44rem;
+	height:0.45rem;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 15;
+    border-top:1px solid #EFEFEF;
+    background: #fff;
+    /* margin-top:1.04rem; */
+}
+footer ul{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+}
+footer ul li{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer .footer-img{
+    width: 0.73rem;
+    height: 0.73rem;
+}
+footer>ul>li>span{
+    font-size: 0.26rem;
+	color:#333;
+	font-family: "微软雅黑";
+}
+@media screen and (min-width:1000px){
+    html{
+        font-size: 100px;
+    }
+}
+@media screen and (min-width:768px){
+    html{
+        font-size: 100px;
+    }
+}
+@media screen and (min-width:300px)and (max-width:767px){
+    html{
+        font-size: 50px;
+    }
+}
