@@ -1,0 +1,266 @@
+.banner{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	font-size:0;
+	margin-top:3px;
+}
+.banner_content{
+	position: relative;
+	width:100%;
+}
+.banner .picture li{
+	display: none;
+}
+.banner .square{
+	position: absolute;
+	right:80px;
+	bottom:280px;
+}
+.banner .square li{
+	width:14px;
+	height:14px;
+	border-radius: 50%;
+	border:1px solid #fff;
+	margin-top: 10px;
+}
+.banner .square .active{
+	background: #fff;
+	width:15px;
+	height:15px;
+}
+.banner .kefu{
+	width: 73px;
+	height: 73px;
+	background:#759250;
+	position: fixed;
+	top:153px;
+	right: 0;
+	z-index: 7;	
+}
+.banner .kefu a{
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+.banner .kefu img{
+	width: 38px;
+	height: 38px;	
+}
+.banner .kefu p{
+    font-size: 12px;
+    color:#fff;
+}
+.banner .swiper-container{
+	width:100%;
+}
+
+/*产品中心开始*/
+.indexPart1{
+	width: 100%;
+	/*height: 624px;*/
+	background: url(../images/indexPart1.jpg) center no-repeat;
+	background-size: cover;
+	padding:100px 0;
+}
+.indexPart1 .indexTitle{
+	text-align: center;
+	color:#333;
+}
+.indexPart1 .indexTitle h1{
+	font-size: 44px;
+}
+.indexPart1 .indexTitle p{
+	font-size: 18px;
+}
+.indexPart1 .indexTitle em{
+	width: 36px;
+	height: 2px;
+	background: #333;
+	display: inline-block;
+}
+.indexPart1  .zi{
+	color:#759250;
+	font-weight: 700;
+	font-size: 18px;
+	padding-bottom: 25px;
+}
+.bigBox{
+	height: 480px;
+	padding-left:205px;
+	position: relative;
+}
+.leftDiv{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 205px;
+}
+.leftDiv ul{
+    width: 160px;
+    padding-left: 10px;
+}
+.leftDiv ul li a{
+	display: block;
+	border-bottom: 1px solid #ddd;
+	height: 64px;
+	line-height: 64px;
+	color:#333;
+}
+/*.leftDiv ul li a:hover{
+	color:#75924f;
+}*/
+
+.leftDiv ul li a img{
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.leftDiv ul li a .img1{
+	display:none;
+}
+/*.leftDiv ul li a:hover img{
+	display: none;
+}
+.leftDiv ul li a:hover .img1{
+	display: inline-block;
+}*/
+.leftDiv .lookMore{
+	width: 158px;
+	height:46px;
+	margin-top:80px;
+}
+.leftDiv .lookMore a{
+	display: block;
+	color:#333;
+	font-size: 12px;
+	text-align: center;
+	line-height: 46px;
+	border:1px solid #333;
+	transition: all .4s ease-in-out;
+}
+.leftDiv .lookMore a:hover{
+	background:#759250;
+	border:none;
+}
+.indexPart1 .slider{
+	width: 995px;
+	height: 420px;
+}
+.indexPart1 .slider-for{
+	width: 100%;
+	display: none;
+	overflow: hidden;
+
+}
+.indexPart1 .slider-for .img{
+	width: 326px;
+	/*height: 420px;*/
+	background: #fff;
+	margin-right: 8px;
+	float:left;
+	
+}
+.indexPart1 .slider-for .img:nth-child(3){
+	 margin-right: 0px;
+}
+.indexPart1 .slider-for .img div{
+	width: 326px;
+	/*height: 326px;*/
+	cursor: pointer;
+	overflow: hidden;
+}
+.indexPart1 .slider-for .img div img{
+	transition: all 1s ease-in-out;
+}
+.indexPart1 .slider-for .img div:hover img{
+	transform: scale(1.1);
+	/*transition: all 1s;*/
+}
+.indexPart1 .slider-for .img .info{
+	padding:14px 30px;
+	color:#555;
+}
+.indexPart1 .slider-for .img .info:hover{
+	color:#759250;;
+}
+.indexPart1 .slider-for .img .img2{
+	height: 326px;
+}
+.indexPart1 .slider-for .img p{
+	font-size: 18px;
+	color:#333;
+	margin:10px 0;
+}
+.indexPart1 .slider-for .img p:hover{
+	color:#759250;
+}
+.indexPart1 .slider-for .img em{
+	width: 44px;
+	height: 2px;
+	background: #ddd;
+    
+	display: block;
+}
+.indexPart1 .slider-for .img i{
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	color:#ccc;
+	margin:10px auto 0;
+	font-style: normal;
+}
+.abouTop{
+	background: #fff;
+	text-align: center;
+	padding:60px 0;
+}
+.abouTop h1{
+	font-size: 40px;
+}
+.abouTop em{
+	font-style: normal;
+}
+.abouTop p{
+	margin-top:40px;
+	color:#666;
+	line-height: 30px;
+}
+.abouTop .lookMore a{
+	width: 162px;
+	height: 48px;
+	border:1px solid #333;
+	text-align: center;
+	font-size: 12px;
+	color:#555;
+	line-height: 48px;
+	display: inline-block;
+	margin-top:56px;
+}
+.abouTop .lookMore a:hover{
+	background:#75924F;
+	border:none;
+}
+/*视频部分开始*/
+.aboutVideo{
+	height: 1020px;
+	padding:50px 0 70px;
+	background: #f5f4f0;
+}
+.aboutVideo .wenzi{
+	font-size: 24px;
+    color: #333;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.aboutVideo .videoPic{
+	width: 1200px;
+	height: auto;
+	margin:0 auto;
+}
+.aboutVideo .videoPic video{
+	width: 1200px;
+}
